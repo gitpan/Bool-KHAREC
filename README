@@ -1,0 +1,12 @@
+Bool is a simple implementation of boolean type. 
+
+It provides you some methods to work with booleans, and it's licensed under the GPLv3. Methods are:
+
+isTrue() return 1 (true) if Bool object is True and nothing if it's False.
+isFalse() return 1 (true) if Bool object is False and nothing if it's True.
+value() return the value of a Bool object.
+ftot() change the value of a False Bool object to True.
+ttof() change the value of a True Bool object to False.
+
+This module is written in pure Perl by Sandro CAZZANIGA. You can find a copy of it in the LICENSE file.
+
