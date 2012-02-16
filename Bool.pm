@@ -1,5 +1,5 @@
 package Bool;
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 sub new {
 	my $self = shift;
 	my ($bool) = @_;
@@ -85,10 +85,15 @@ This module gives you the methods needed to work with booleans.
 
 The methods are listed here:
 
+
 isTrue() return 1 (true) if Bool object is True and nothing if it's False.
+
 isFalse() return 1 (true) if Bool object is False and nothing if it's True.
+
 value() return the value of a Bool object.
+
 ftot() change the value of a False Bool object to True.
+
 ttof() change the value of a True Bool object to False.
 
 
