@@ -1,5 +1,5 @@
 package Bool;
-our $VERSION = 0.02;
+our $VERSION = 0.021;
 sub new {
 	my $self = shift;
 	my ($bool) = @_;
@@ -62,7 +62,7 @@ Bool - Simple implementation of boolean
 
 =head1 SYNOPSIS
 	
-	use bool;
+	use Bool;
 
 	my $bool = Bool->new("True");
 	$bool->ttof(); #now $bool is False
